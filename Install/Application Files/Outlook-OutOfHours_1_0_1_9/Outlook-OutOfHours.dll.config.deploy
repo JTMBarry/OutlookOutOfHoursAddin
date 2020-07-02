@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="Outlook_OutOfHours.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <userSettings>
+        <Outlook_OutOfHours.Properties.Settings>
+            <setting name="StartTime" serializeAs="String">
+                <value>07:00:00</value>
+            </setting>
+            <setting name="EndTime" serializeAs="String">
+                <value>19:00:00</value>
+            </setting>
+            <setting name="IsMonWork" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="IsTueWork" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="IsWedWork" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="IsThuWork" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="IsFriWork" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="IsSatWork" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="IsSunWork" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="IsAddinOn" serializeAs="String">
+                <value>True</value>
+            </setting>
+        </Outlook_OutOfHours.Properties.Settings>
+    </userSettings>
+</configuration>
